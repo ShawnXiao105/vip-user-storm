@@ -9,7 +9,7 @@ import org.apache.storm.topology.TopologyBuilder;
 public class AckedTopology {
 	private static final String SPOUT_ID = "monitoring_test_spout";
 	  private static final String REPORT_BOLT_ID = "acking-report-bolt";
-	  private static final String TOPOLOGY_NAME = "monitoring-topology";
+	  private static final String TOPOLOGY_NAME = "myFirstStormKafkaForVipUser";
 	  private static final String KAFKA_LOCAL_BROKER = "localhost:9092";
 
 	  

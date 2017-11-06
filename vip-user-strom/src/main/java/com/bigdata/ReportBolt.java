@@ -30,7 +30,7 @@ public class ReportBolt extends BaseRichBolt {
 
 	  @Override
 	  public void execute(Tuple tuple) {   
-	    System.out.println("HELLO " + tuple.getString(0));
+	    System.out.println("HELLO " + tuple);
 	    
 	  }
 
